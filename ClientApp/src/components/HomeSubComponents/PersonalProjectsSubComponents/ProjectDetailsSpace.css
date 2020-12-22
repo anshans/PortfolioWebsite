@@ -1,0 +1,11 @@
+﻿#Details {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    background-color: azure;
+    border-radius: 0px 0px 15px 15px;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+
+}

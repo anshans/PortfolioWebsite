@@ -1,0 +1,75 @@
+﻿@import url('file:///C:\Users\bono\Desktop\PortfolioWeb\ClientApp\src\components\Home.css');
+#vidtextHeader {
+    width: 100%;
+    height: 100%;
+    border-bottom:50%;
+    position: relative;
+}
+video {
+    width: 100%;
+    object-fit:cover;
+    position:absolute;
+
+    height: 100%;
+}
+
+#IntroText {
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 5%;
+    font-size: 3.5vw;
+    font-family: 'Sitka Banner';
+    margin-top: 20%;
+}
+#IntroTextH2 {
+    font-size: 2.4vw;
+}
+#h1h2 {
+    height: 2px;
+    background-color: black;
+    border: none;
+    position: absolute;
+    margin-top: 23.75%;
+    width:95%;
+}
+.ContainerWithBorders {
+    padding: 2.5%;
+    position: relative;
+    width: 100%;
+    background: white;
+    display: flex;
+    white-space: pre-line;
+    z-index: 0;
+    padding-top: 50px;
+    font-family: 'Sitka Banner';
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+#AboutMe {
+    position: relative;
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+    height: auto;
+    overflow-wrap: break-word;
+    background-color: #112432;
+    padding: 15px;
+    padding-bottom: 100px;
+}
+#Contact {
+    postion: relative;
+    width: 40%;
+    height: 100%;
+    background-color: gainsboro;
+    float: left;
+    height: auto;
+    padding-right: 10px;
+    overflow-wrap: break-word;
+    padding: 20px;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 1px;
+}
